@@ -1,0 +1,100 @@
+@charset "UTF-8";
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", メイリオ, Meiryo, "ＭＳ Ｐゴシック", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #c4dfe6;
+}
+
+header {
+  background-color: #66a5ad;
+  width: 100%;
+  height: 100px;
+  padding: 30px 4% 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: fixed;
+  z-index: 500;
+  color: #fff;
+}
+
+header a {
+  text-decoration: none;
+  cursor: pointer;
+  color: #fff;
+}
+
+header h1 {
+  display: inline;
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+}
+
+header .search_box {
+  padding-left: 40px;
+}
+
+header .search_box input {
+  width: 500px;
+  height: 30px;
+  border-radius: 2px;
+}
+
+header .search_box button {
+  height: 30px;
+  cursor: pointer;
+  margin: 0;
+}
+
+header nav {
+  margin: 0 0 0 auto;
+}
+
+header nav li {
+  display: inline-block;
+  list-style: none;
+  margin: 0 0 0 15px;
+  font-size: 14px;
+}
+
+header nav li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.container {
+  width: 100%;
+  height: 1000px;
+  padding: 100px 200px 0px 200px;
+}
+
+.container .content {
+  height: 100%;
+  background-color: #fff;
+}
+
+.container form {
+  padding: 100px;
+  text-align: center;
+}
+
+footer div {
+  text-align: center;
+}
+
+footer small {
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+}
+/*# sourceMappingURL=component.css.map */
